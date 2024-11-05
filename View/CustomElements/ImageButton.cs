@@ -15,6 +15,7 @@ namespace DataBaseKursach__NET_.View.CustomElements
         public ImageButton()
         {
             InitializeComponent();
+            SetStyle(ControlStyles.DoubleBuffer | ControlStyles.UserPaint | ControlStyles.AllPaintingInWmPaint, true);
         }
         private Image NormalImage;
         private Image HoverImage;

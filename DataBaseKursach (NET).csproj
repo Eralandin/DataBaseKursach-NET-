@@ -48,17 +48,41 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\AccountingUnitsPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\AccountingUnitsPage.Designer.cs">
+      <DependentUpon>AccountingUnitsPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\CustomElements\ImageButton.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="View\CustomElements\ImageButton.Designer.cs">
       <DependentUpon>ImageButton.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\HomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\HomePage.Designer.cs">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="View\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ManufacturersPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ManufacturersPage.Designer.cs">
+      <DependentUpon>ManufacturersPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ProductGroupsPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ProductGroupsPage.Designer.cs">
+      <DependentUpon>ProductGroupsPage.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -72,11 +96,23 @@
       <DesignTime>True</DesignTime>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
+    <EmbeddedResource Include="View\AccountingUnitsPage.resx">
+      <DependentUpon>AccountingUnitsPage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\CustomElements\ImageButton.resx">
       <DependentUpon>ImageButton.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\HomePage.resx">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ManufacturersPage.resx">
+      <DependentUpon>ManufacturersPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ProductGroupsPage.resx">
+      <DependentUpon>ProductGroupsPage.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -101,6 +137,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\HomePictureHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Логотип_НГТУ_НЭТИ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\НГТУ.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\НГТУ.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ProductGroupsNormal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ProductGroupsNormal1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ManufacturersNormal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ManufacturersNormal1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AccountinUnitsNormal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AccountinUnitsNormal1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AccountinUnitsNormal2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

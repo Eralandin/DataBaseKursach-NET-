@@ -63,6 +63,26 @@ namespace DataBaseKursach__NET_.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap AccountingUnitsHover {
+            get {
+                object obj = ResourceManager.GetObject("AccountingUnitsHover", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap AccountingUnitsNormal {
+            get {
+                object obj = ResourceManager.GetObject("AccountingUnitsNormal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap HomePicture {
             get {
                 object obj = ResourceManager.GetObject("HomePicture", resourceCulture);
@@ -77,6 +97,66 @@ namespace DataBaseKursach__NET_.Properties {
             get {
                 object obj = ResourceManager.GetObject("HomePictureHover", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ManufacturersHover {
+            get {
+                object obj = ResourceManager.GetObject("ManufacturersHover", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ManufacturersNormal {
+            get {
+                object obj = ResourceManager.GetObject("ManufacturersNormal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ProductGroupsHover {
+            get {
+                object obj = ResourceManager.GetObject("ProductGroupsHover", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ProductGroupsNormal {
+            get {
+                object obj = ResourceManager.GetObject("ProductGroupsNormal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Логотип_НГТУ_НЭТИ {
+            get {
+                object obj = ResourceManager.GetObject("Логотип_НГТУ_НЭТИ", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Icon, аналогичного (Значок).
+        /// </summary>
+        internal static System.Drawing.Icon НГТУ {
+            get {
+                object obj = ResourceManager.GetObject("НГТУ", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
             }
         }
     }
